@@ -6,9 +6,9 @@ from finance import load_finances, save_finances
 from employee import buy_product, sell_product
 
 def main():
-    users_filename = 'users.json'
-    products_filename = 'products.json'
-    finances_filename = 'finances.json'
+    users_filename = 'jsonmain123-main/users.json'
+    products_filename = 'jsonmain123-main/products.json'
+    finances_filename = 'jsonmain123-main/finances.json'
 
     
     users = load_users(users_filename)
